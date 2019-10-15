@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 4182fbbefa73193409a618e627e8681b
+  productGUID: 80d0f42fa7552964b84a42aa792b700b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ArLearning1
+  productName: ArLerning
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -294,7 +294,9 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
-  m_BuildTargetEnableVuforiaSettings: []
+  m_BuildTargetEnableVuforiaSettings:
+  - m_BuildTarget: Android
+    m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
@@ -618,9 +620,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: ac813753-b15f-4423-bbcd-b5468433b7f1
+  cloudProjectId: 7ce14703-9218-4583-8a91-d68d92f44a99
   framebufferDepthMemorylessMode: 0
-  projectName: ArLearning1
+  projectName: ArLerning
   organizationId: unity_i683hhdxjcynvw
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
